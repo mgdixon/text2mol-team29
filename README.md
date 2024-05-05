@@ -1,7 +1,7 @@
 # text2mol-team29
 Project for UIUC 598 DLH to reproduce a paper [Text2Mol](https://aclanthology.org/2021.emnlp-main.47/) from [repo](https://github.com/cnedwards/text2mol/tree/master/code) 
 
-All of the necessary code is in the DL4H_Team_29.ipynb file.  Training code can be enabled by setting TRAIN_MLP, TRAIN_GCN, and TRAIN_TRANSFORMER to true. Additionally there is a knob (ENSEMBLE_FULL) to control whether the full ensemble models are used or simply the test set of data. 
+All of the necessary code is in the DL4H_Team_29.ipynb file.  In the "Constants" section, training code can be enabled by setting TRAIN_MLP, TRAIN_GCN, and TRAIN_TRANSFORMER to True. Additionally there is a knob (ENSEMBLE_FULL) to control whether the full ensemble models are used or simply the test set of data.  We recommend setting TRAIN_MLP, TRAIN_GCN, and TRAIN_TRANSFORMER to False in order to shorten the time to run the full notebook. 
 
 Additionally, the code for the ablations and full trainings are supplied in 'GCN_Ablation.ipynb', 'MLP_Ablations.ipynb' and 'attention_model_Ablation.ipynb'. The 'ensemble.ipynb' provides the code to run the ensemble models. NB: each of these files will need to be altered to point to a Google Cloud Storage drive instead of the authors.  
 
